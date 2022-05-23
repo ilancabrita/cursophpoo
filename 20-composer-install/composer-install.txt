@@ -1,0 +1,15 @@
+C:\Users\HP>cd C:\xampp\htdocs\coursophpoo\20-composer-install
+
+C:\xampp\htdocs\coursophpoo\20-composer-install>composer install
+No composer.lock file present. Updating dependencies to latest instead of installing from lock file. See https://getcomposer.org/install for more information.
+Loading composer repositories with package information
+Info from https://repo.packagist.org: #StandWithUkraine
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking cocur/slugify (v3.2)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Downloading cocur/slugify (v3.2)
+  - Installing cocur/slugify (v3.2): Extracting archive
+Generating autoload files

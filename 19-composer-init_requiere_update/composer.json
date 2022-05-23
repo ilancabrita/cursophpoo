@@ -1,0 +1,19 @@
+{
+    "name": "ilan/composer",
+    "description": "teste composer",
+    "require": {
+        "dompdf/dompdf": "^0.8.3",
+        "pagseguro/pagseguro-php-sdk": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ilan\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ilancabrita",
+            "email": "82396649+ilancabrita@users.noreply.github.com"
+        }
+    ]
+}

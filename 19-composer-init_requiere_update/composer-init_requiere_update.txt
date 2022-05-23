@@ -1,0 +1,127 @@
+
+C:\xampp\htdocs\coursophpoo>composer init
+
+
+  Welcome to the Composer config generator
+
+
+
+This command will guide you through creating your composer.json config.
+
+Package name (<vendor>/<name>) [hp/coursophpoo]: ilan/composer
+Description []: teste composer
+Author [ilancabrita <82396649+ilancabrita@users.noreply.github.com>, n to skip]:
+Minimum Stability []:
+Package Type (e.g. library, project, metapackage, composer-plugin) []:
+License []:
+
+Define your dependencies.
+
+Would you like to define your dependencies (require) interactively [yes]? yes
+Search for a package: dompdf/dompdf
+Info from https://repo.packagist.org: #StandWithUkraine
+Enter the version constraint to require (or leave blank to use the latest version): ^0.8.3
+Search for a package:
+Would you like to define your dev dependencies (require-dev) interactively [yes]? no
+Add PSR-4 autoload mapping? Maps namespace "Ilan\Composer" to the entered relative path. [src/, n to skip]:
+
+{
+    "name": "ilan/composer",
+    "description": "teste composer",
+    "require": {
+        "dompdf/dompdf": "^0.8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ilan\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ilancabrita",
+            "email": "82396649+ilancabrita@users.noreply.github.com"
+        }
+    ]
+}
+
+Do you confirm generation [yes]? yes
+Would you like the vendor directory added to your .gitignore [yes]? yes
+Would you like to install dependencies now [yes]? yes
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 4 installs, 0 updates, 0 removals
+  - Locking dompdf/dompdf (v0.8.3)
+  - Locking phenx/php-font-lib (0.5.4)
+  - Locking phenx/php-svg-lib (0.3.4)
+  - Locking sabberworm/php-css-parser (8.4.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 4 installs, 0 updates, 0 removals
+  - Downloading sabberworm/php-css-parser (8.4.0)
+  - Downloading phenx/php-svg-lib (0.3.4)
+  - Downloading phenx/php-font-lib (0.5.4)
+  - Downloading dompdf/dompdf (v0.8.3)
+  - Installing sabberworm/php-css-parser (8.4.0): Extracting archive
+  - Installing phenx/php-svg-lib (0.3.4): Extracting archive
+  - Installing phenx/php-font-lib (0.5.4): Extracting archive
+  - Installing dompdf/dompdf (v0.8.3): Extracting archive
+3 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+PSR-4 autoloading configured. Use "namespace Ilan\Composer;" in src/
+Include the Composer autoloader with: require 'vendor/autoload.php';
+
+C:\xampp\htdocs\coursophpoo>cd 19-composer-init_requiere_update
+
+C:\xampp\htdocs\coursophpoo\19-composer-init_requiere_update>composer require pagseguro/pagseguro-php-sdk
+Info from https://repo.packagist.org: #StandWithUkraine
+Using version ^4.2 for pagseguro/pagseguro-php-sdk
+./composer.json has been updated
+Running composer update pagseguro/pagseguro-php-sdk
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking pagseguro/pagseguro-php-sdk (4.2.1)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Downloading pagseguro/pagseguro-php-sdk (4.2.1)
+  - Installing pagseguro/pagseguro-php-sdk (4.2.1): Extracting archive
+Generating autoload files
+
+C:\xampp\htdocs\coursophpoo\19-composer-init_requiere_update>composer update
+Loading composer repositories with package information
+Info from https://repo.packagist.org: #StandWithUkraine
+Updating dependencies
+Lock file operations: 0 installs, 0 updates, 4 removals
+  - Removing dompdf/dompdf (v0.8.3)
+  - Removing phenx/php-font-lib (0.5.4)
+  - Removing phenx/php-svg-lib (0.3.4)
+  - Removing sabberworm/php-css-parser (8.4.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 0 installs, 0 updates, 4 removals
+  - Removing sabberworm/php-css-parser (8.4.0)
+  - Removing phenx/php-svg-lib (0.3.4)
+  - Removing phenx/php-font-lib (0.5.4)
+  - Removing dompdf/dompdf (v0.8.3)
+Generating autoload files
+
+C:\xampp\htdocs\coursophpoo\19-composer-init_requiere_update>composer update
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 4 installs, 0 updates, 0 removals
+  - Locking dompdf/dompdf (v0.8.3)
+  - Locking phenx/php-font-lib (0.5.4)
+  - Locking phenx/php-svg-lib (0.3.4)
+  - Locking sabberworm/php-css-parser (8.4.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 4 installs, 0 updates, 0 removals
+  - Installing sabberworm/php-css-parser (8.4.0): Extracting archive
+  - Installing phenx/php-svg-lib (0.3.4): Extracting archive
+  - Installing phenx/php-font-lib (0.5.4): Extracting archive
+  - Installing dompdf/dompdf (v0.8.3): Extracting archive
+3 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating autoload files
+
+C:\xampp\htdocs\coursophpoo\19-composer-init_requiere_update>
