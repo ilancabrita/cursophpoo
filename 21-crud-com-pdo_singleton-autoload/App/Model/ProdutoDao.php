@@ -6,7 +6,7 @@ class ProdutoDao
 {
     public function create(Produto $p)
     {
-        $sql = 'INSERT INTO produtos (nome, descricao) VALUES (?,?)';
+        $sql = 'INSERT INTO produtos (nome, descricao) VALUES (?,?)'; // id é opçõe
 
         $stmt = Conexao::getConn()->prepare($sql);
         $stmt->bindValue(1, $p->getNome());

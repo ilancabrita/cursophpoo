@@ -1,0 +1,10 @@
+Microsoft Windows [version 10.0.22000.675]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\HP>cd C:\xampp\htdocs\coursophpoo\21-crud-com-pdo_singleton-autoload
+
+C:\xampp\htdocs\coursophpoo\21-crud-com-pdo_singleton-autoload>composer dump-autoload
+Generating autoload files
+Generated autoload files
+
+C:\xampp\htdocs\coursophpoo\21-crud-com-pdo_singleton-autoload>
