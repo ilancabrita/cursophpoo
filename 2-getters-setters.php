@@ -37,9 +37,7 @@ class Login
 }
 
 
-$logar = new Login();
-$logar->setEmail("teste@teste.com");
-$logar->setSenha("123456");
+$logar = new Login("teste@teste.com", "123456", "Rodrigo Oliveira");
 $logar->Logar();
 echo "<hr>";
 echo $logar->getEmail();
